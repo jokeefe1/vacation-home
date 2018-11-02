@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react'
-import EmergencyInfo from '../components/EmergencyInfo'
+import EmergencyInfo from '../components/EmergencyInfo/EmergencyInfo'
 
 
 

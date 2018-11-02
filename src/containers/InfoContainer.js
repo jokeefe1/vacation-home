@@ -1,12 +1,12 @@
 
 
 import React, { Component } from 'react'
-import WifiInfo from '../components/WifiInfo'
-import CheckoutInfo from '../components/CheckoutInfo'
-import PoolInfo from '../components/PoolInfo' 
-import HouseRulesInfo from '../components/HouseRulesInfo';
-import AddressInfo from '../components/AddressInfo'
-import HostInfo from '../components/HostInfo';
+import WifiInfo from '../components/WifiInfo/WifiInfo'
+import CheckoutInfo from '../components/CheckoutInfo/CheckoutInfo'
+import PoolInfo from '../components/PoolInfo/PoolInfo' 
+import HouseRulesInfo from '../components/HouseRulesInfo/HouseRulesInfo';
+import AddressInfo from '../components/AddressInfo/AddressInfo'
+import HostInfo from '../components/HostInfo/HostInfo';
 
 
 export default class InfoContainer extends Component {

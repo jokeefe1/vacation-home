@@ -23,8 +23,8 @@ yarn-error.log*
 # playground
 /playground
 
-# env files
-.env
+# WiFi Password
+homeSettings.js
 
 # debug config files
 .vscode

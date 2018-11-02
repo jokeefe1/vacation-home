@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react'
-import RestaurantInfo from '../components/RestaurantInfo'
+import RestaurantInfo from '../components/RestaurantInfo/RestaurantInfo'
 
 export default class InfoContainer extends Component {
     render() {

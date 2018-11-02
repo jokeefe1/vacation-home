@@ -1,9 +1,9 @@
 
 
 import React, { Component } from 'react'
-import Massage from '../components/MassageInfo'
-import StrollerInfo from '../components/StrollerInfo'
-import GroceryInfo from '../components/GroceryInfo'
+import Massage from '../components/MassageInfo/MassageInfo'
+import StrollerInfo from '../components/StrollerInfo/StrollerInfo'
+import GroceryInfo from '../components/GroceryInfo/GroceryInfo'
 
 
 
