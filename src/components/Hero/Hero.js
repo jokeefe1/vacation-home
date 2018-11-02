@@ -4,7 +4,7 @@ import { Slider } from './Hero.styles';
 
 export default class Hero extends React.Component {
     state = {
-        image: [
+        images: [
             <img
                 src="\img\aaron-mello-625621-unsplash.jpeg"
                 alt="Orlando Eye ferris wheel"
@@ -29,12 +29,13 @@ export default class Hero extends React.Component {
     };
 
     render() {
-        return (
-            <div>
+
+        const { images } = this.state
+
+        return <div>
                 <Slider>
-                    {this.state.image[0]}
+                    {images.map((image,i) => image[i])}
                 </Slider>
-            </div>
-        );
+            </div>;
     }
 }
