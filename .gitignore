@@ -23,7 +23,7 @@ yarn-error.log*
 # playground
 /playground
 
-# WiFi Password
+# Home Settings
 homeSettings.js
 
 # debug config files
